@@ -8,10 +8,10 @@ from qdrant_client import QdrantClient
 import cohere
 import os
 
-# Your API keys
-COHERE_API_KEY = "Iftf4J9ZlMqANexAhp5CTk644Z7i2Lq0aqfmeqxC"
-QDRANT_URL = "https://39910d80-039b-4577-b490-72e3a8219ba5.europe-west3-0.gcp.cloud.qdrant.io/"
-QDRANT_API_KEY = "Xt7g1TmFWmhVGAucembRPi73mzxV4kNXgoZmAmd4PsP54fF50xKpFg"
+# Your API keys and Qdrant URL
+COHERE_API_KEY = "cohereapikey"
+QDRANT_URL = "qsranturl"
+QDRANT_API_KEY = "qdrantapikey"
 
 class RAGSystem:
     def __init__(self, collection_name="test_collection"):
