@@ -1,0 +1,17 @@
+# Environment files
+.env
+
+# Compiled Python files
+__pycache__/
+
+# Virtual environments
+bot_venv/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Backup and log files
+*.log
+*.bak
+
